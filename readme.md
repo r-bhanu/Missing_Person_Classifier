@@ -1,14 +1,9 @@
 # Missing Person Image Classification
-
-![](https://raw.githubusercontent.com/lionelsamrat10/Sports-Celebrity-Image-Classification/main/app_screenshot.PNG)
-
-In this end to end data science and machine learning project, we classify sports personalities. We restrict classification to only 5 people,
-1) Maria Sharapova
-2) Serena Williams
-3) Virat Kohli
-4) Roger Federer
-5) Lionel Messi
-Plesae ⭐ this repository if you found it useful.
+The Missing Person Image Classifier is a machine learning project aimed at assisting law enforcement and organizations in identifying missing persons using image analysis. This project utilizes image classification techniques to match input images against a database of images of missing individuals.
+<div style="display: flex;">
+    <img src="https://github.com/r-bhanu/Missing_Person_Classifier/blob/main/ss2.png" alt="Image 1" width="400" height="300"/>
+    <img src="https://github.com/r-bhanu/Missing_Person_Classifier/blob/main/ss1.png" alt="Image 2" width="400" height"400"/>
+</div>
 
 ### Folder structure
 
@@ -43,12 +38,10 @@ Run commands on python terminal or anaconda terimial or any terminal you are usi
 
 ### Test the app:
 
-* Clone the repository: `git clone https://github.com/lionelsamrat10/Sports-Celebrity-Image-Classification.git`
+* Clone the repository: `https://github.com/r-bhanu/Missing_Person_Classifier.git`
 * Go to the project directory
-* Go to Server Directory: `cd Server`
+* Go to Server Directory: `cd server`
 * Run the app: `python app.py`
 * The development server will be up and running on port 5000 at the URL: http://127.0.0.1:5000/
 * Now go to the UI Folder and open app.html on the browser. <b>Note that the flask app server must be up and running.</b> 
-* Drag an image of your favourite celebrity from the five and hit the classify button. Our app will predict the celebrity name with his/ her image. It will also show us the percentage match of our image with all the five celebrities. 
-
-Hope you like this project !!! 
+* Drag an image of a missing person from the five and hit the classify button. Our app will predict the missing person's name with his/ her image. It will also show us the percentage match of our image with all the five possible people. 
